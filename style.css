@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    
+}
+nav{
+    background-color:black;
+}
+nav .nav-link:hover{
+    color: #fff;
+    font-size: 1.4rem;
+}
+nav .dropdown-item:hover{
+    font-size: 1.4rem;
+}
+
+.navbar-nav{
+    padding-right: 5.6rem;
+}
+#home{
+    margin-top:3.9rem;
+}
+
+#home img{
+    width: auto;
+    height: 500px;
+}
+
+#portfolio{
+    background-color:rgb(115, 146, 146);
+}
+#portfolio .card{
+    margin:1rem;
+}
+#portfolio h2{
+    padding-top: 2rem;
+    text-align:center
+}
+
+#portfolio .card-text{
+    color: transparent;
+}
+#portfolio .card-text:hover{
+    width:inherit;
+    height:140px;
+    background-color:rgba(0,0,0,0.7);
+    color: #fff;
+    
+}
+@media (max-width:1200px) {
+    #portfolio .card-text{
+        color: transparent;
+    }
+    #portfolio .card-text:hover{
+        width:inherit;
+        height:auto;
+        background-color:rgba(0,0,0,0.7);
+        color: #fff;
+        
+    }
+}
+@media (max-width:800px) {
+    #portfolio .card-text{
+        color: transparent;
+    }
+    #portfolio .card-text:hover{
+        width:inherit;
+        height:140px;
+        background-color:rgba(0,0,0,0.7);
+        color: #fff;
+        
+    }
+}
+
+
+#portfolio .card-title{
+    width:max-content;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+}
+#about{
+    width: 100%;
+    background-color:#00112c;
+    color: #fff;
+    text-align: center;
+    padding:3rem;
+}
+#about p{
+    text-align: justify;
+}
+footer{
+    background-color: #2d3d4f;
+}
+
+footer .card{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width:320px;
+    padding-top: 2rem;
+    background-color: #2d3d4f;
+    color: #fff;
+    border: 0;
+}
+footer .card-title {
+    padding-left: 1rem;
+}
+@media (max-width: 768px) {
+    footer .card{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4.5rem;
+    width:300px;
+    padding-top: 2rem;
+    background-color: #2d3d4f;
+    color: #fff;
+    border: 0;
+    }
+    footer .card-title {
+        padding-left: 1rem;
+    }
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    
+    font-size:20px;
+    font-weight: bold;
+    
+}
+footer .btn:hover{
+    font-size: 1.4rem;
+}
+.copyright{
+    background-color: #333;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    color: #fff;
+    text-align: center;
+}
+.copyright a{
+    text-decoration: none;
+    color: gold;
+}
