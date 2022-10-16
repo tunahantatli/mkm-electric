@@ -29,6 +29,12 @@ nav .dropdown-item:hover{
     width: auto;
     height: 500px;
 }
+#home .carousel-caption{
+    background-color: rgba(20,20,20,0.5);
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
 
 #portfolio{
     background-color:rgb(115, 146, 146);
