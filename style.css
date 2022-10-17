@@ -18,6 +18,7 @@ nav .dropdown-item:hover{
     font-size: 1.4rem;
 }
 
+
 .navbar-nav{
     padding-right: 5.6rem;
 }
@@ -38,8 +39,9 @@ nav .dropdown-item:hover{
 
 #portfolio{
     background-color:rgb(115, 146, 146);
+    width: 100%;
 }
-#portfolio .card{
+#portfolio .card {
     margin:1rem;
 }
 #portfolio h2{
@@ -47,48 +49,6 @@ nav .dropdown-item:hover{
     text-align:center
 }
 
-#portfolio .card-text{
-    color: transparent;
-}
-#portfolio .card-text:hover{
-    width:inherit;
-    height:140px;
-    background-color:rgba(0,0,0,0.7);
-    color: #fff;
-    
-}
-@media (max-width:1200px) {
-    #portfolio .card-text{
-        color: transparent;
-    }
-    #portfolio .card-text:hover{
-        width:inherit;
-        height:auto;
-        background-color:rgba(0,0,0,0.7);
-        color: #fff;
-        
-    }
-}
-@media (max-width:800px) {
-    #portfolio .card-text{
-        color: transparent;
-    }
-    #portfolio .card-text:hover{
-        width:inherit;
-        height:140px;
-        background-color:rgba(0,0,0,0.7);
-        color: #fff;
-        
-    }
-}
-
-
-#portfolio .card-title{
-    width:max-content;
-    border-radius: 10px;
-    background-color: rgba(0,0,0,0.7);
-    color: #fff;
-}
 #about{
     width: 100%;
     background-color:#00112c;
@@ -111,7 +71,7 @@ footer .card{
     padding-top: 2rem;
     background-color: #2d3d4f;
     color: #fff;
-    border: 0;
+    border:0;
 }
 footer .card-title {
     padding-left: 1rem;
