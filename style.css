@@ -31,7 +31,7 @@ nav .dropdown-item:hover{
     height: 580px;
 }
 #home .carousel-caption{
-    background-color: rgba(20,20,20,0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     font-weight: 600;
     margin-bottom: 2rem;
